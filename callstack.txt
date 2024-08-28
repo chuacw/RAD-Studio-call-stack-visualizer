@@ -1,0 +1,236 @@
+[5E0C4193]{coreide290.bpl} ProjectModule.TBaseProject.PromptForSave (Line 1668, "ProjectModule.pas" + 1) + $1B
+[5E0C418A]{coreide290.bpl} ProjectModule.TBaseProject.PromptForSave (Line 1668, "ProjectModule.pas" + 1) + $12
+[5E0C582D]{coreide290.bpl} ProjectModule.TCustomProject.Save (Line 2093, "ProjectModule.pas" + 5) + $F
+[5E02064B]{coreide290.bpl} ProjectGroup.TProjectGroupWrapper.GetCanCloseMiscProjects (Line 3116, "ProjectGroup.pas" + 12) + $8
+[00B98385]{bds.exe     } AppMain.TAppBuilder.CanCloseProjectGroup + $59
+[00B9BD5A]{bds.exe     } AppMain.TAppBuilder.WindowCloseQuery + $112
+[60A3F0E0]{vcl290.bpl  } Vcl.Forms.TCustomForm.CloseQuery (Line 9644, "Vcl.Forms.pas" + 8) + $14
+[60A3F009]{vcl290.bpl  } Vcl.Forms.TCustomForm.Close (Line 9616, "Vcl.Forms.pas" + 4) + $4
+[60A3D648]{vcl290.bpl  } Vcl.Forms.TCustomForm.WMClose (Line 8786, "Vcl.Forms.pas" + 0) + $0
+[608EF15E]{vcl290.bpl  } Vcl.Controls.TControl.WndProc (Line 7920, "Vcl.Controls.pas" + 91) + $6
+[609FD02B]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5823, "Vcl.Themes.pas" + 7) + $D
+[60D11860]{rtl290.bpl  } System.@TryFinallyExit (Line 23827, "System.pas" + 8) + $0
+[609FD119]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5834, "Vcl.Themes.pas" + 18) + $1E
+[60D105CB]{rtl290.bpl  } System.TObject.Dispatch (Line 19278, "System.pas" + 11) + $0
+[60A01069]{vcl290.bpl  } Vcl.Themes.TStyleHook.WndProc (Line 7734, "Vcl.Themes.pas" + 38) + $6
+[60A0124A]{vcl290.bpl  } Vcl.Themes.TMouseTrackControlStyleHook.WndProc (Line 7833, "Vcl.Themes.pas" + 1) + $4
+[60A53357]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.WndProc (Line 20592, "Vcl.Forms.pas" + 31) + $5
+[60A4DFFE]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.IsStyleBorder (Line 18462, "Vcl.Forms.pas" + 1) + $13
+[60A4E03C]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.HandleMessage (Line 18469, "Vcl.Forms.pas" + 2) + $6
+[60B2B1AC]{vcl290.bpl  } Vcl.Styles.TStyleEngine.HandleMessage (Line 3616, "Vcl.Styles.pas" + 20) + $8
+[60D12789]{rtl290.bpl  } System.@UStrAsg (Line 27007, "System.pas" + 18) + $0
+[609FD24C]{vcl290.bpl  } Vcl.Themes.TStyleManager.HandleMessage (Line 5892, "Vcl.Themes.pas" + 11) + $11
+[608F2767]{vcl290.bpl  } Vcl.Controls.TWinControl.DoHandleStyleMessage (Line 9956, "Vcl.Controls.pas" + 0) + $F
+[608F4813]{vcl290.bpl  } Vcl.Controls.TWinControl.WndProc (Line 11154, "Vcl.Controls.pas" + 178) + $6
+[60A38D98]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6303, "Vcl.Forms.pas" + 1) + $37
+[60A3966F]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6576, "Vcl.Forms.pas" + 274) + $5
+[608F3CD8]{vcl290.bpl  } Vcl.Controls.TWinControl.MainWndProc (Line 10823, "Vcl.Controls.pas" + 3) + $6
+[60E34E34]{rtl290.bpl  } System.Classes.StdWndProc (Line 19091, "System.Classes.pas" + 8) + $0
+[608F4969]{vcl290.bpl  } Vcl.Controls.TWinControl.DefaultHandler (Line 11199, "Vcl.Controls.pas" + 34) + $19
+[60A3BFF6]{vcl290.bpl  } Vcl.Forms.TCustomForm.DefaultHandler (Line 8080, "Vcl.Forms.pas" + 11) + $4
+[608F67A1]{vcl290.bpl  } Vcl.Controls.TWinControl.WMSysCommand (Line 12429, "Vcl.Controls.pas" + 20) + $7
+[60A3D719]{vcl290.bpl  } Vcl.Forms.TCustomForm.WMSysCommand (Line 8837, "Vcl.Forms.pas" + 14) + $4
+[5E27BC4E]{coreide290.bpl} MainWorkFrm.TMainWorkForm.WMSysCommand (Line 128, "MainWorkFrm.pas" + 2) + $4
+[608EF15E]{vcl290.bpl  } Vcl.Controls.TControl.WndProc (Line 7920, "Vcl.Controls.pas" + 91) + $6
+[609FD02B]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5823, "Vcl.Themes.pas" + 7) + $D
+[60D11860]{rtl290.bpl  } System.@TryFinallyExit (Line 23827, "System.pas" + 8) + $0
+[609FD119]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5834, "Vcl.Themes.pas" + 18) + $1E
+[60A4DFFE]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.IsStyleBorder (Line 18462, "Vcl.Forms.pas" + 1) + $13
+[60A4FBC4]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.WMSysCommand (Line 19215, "Vcl.Forms.pas" + 1) + $2
+[5F81A2C6]{themeloader290.bpl} IDETheme.VclStyleHooks.TCustomFormIDEStyleHook.WMSysCommand (Line 124, "IDETheme.VclStyleHooks.pas" + 1) + $4
+[60A01069]{vcl290.bpl  } Vcl.Themes.TStyleHook.WndProc (Line 7734, "Vcl.Themes.pas" + 38) + $6
+[60A0124A]{vcl290.bpl  } Vcl.Themes.TMouseTrackControlStyleHook.WndProc (Line 7833, "Vcl.Themes.pas" + 1) + $4
+[60A53357]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.WndProc (Line 20592, "Vcl.Forms.pas" + 31) + $5
+[60A4DFFE]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.IsStyleBorder (Line 18462, "Vcl.Forms.pas" + 1) + $13
+[60A4E03C]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.HandleMessage (Line 18469, "Vcl.Forms.pas" + 2) + $6
+[60B2B1AC]{vcl290.bpl  } Vcl.Styles.TStyleEngine.HandleMessage (Line 3616, "Vcl.Styles.pas" + 20) + $8
+[60D12789]{rtl290.bpl  } System.@UStrAsg (Line 27007, "System.pas" + 18) + $0
+[609FD24C]{vcl290.bpl  } Vcl.Themes.TStyleManager.HandleMessage (Line 5892, "Vcl.Themes.pas" + 11) + $11
+[608F2767]{vcl290.bpl  } Vcl.Controls.TWinControl.DoHandleStyleMessage (Line 9956, "Vcl.Controls.pas" + 0) + $F
+[608F4813]{vcl290.bpl  } Vcl.Controls.TWinControl.WndProc (Line 11154, "Vcl.Controls.pas" + 178) + $6
+[60A38D98]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6303, "Vcl.Forms.pas" + 1) + $37
+[60A3966F]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6576, "Vcl.Forms.pas" + 274) + $5
+[608F3CD8]{vcl290.bpl  } Vcl.Controls.TWinControl.MainWndProc (Line 10823, "Vcl.Controls.pas" + 3) + $6
+[60E34E34]{rtl290.bpl  } System.Classes.StdWndProc (Line 19091, "System.Classes.pas" + 8) + $0
+[608F3CD8]{vcl290.bpl  } Vcl.Controls.TWinControl.MainWndProc (Line 10823, "Vcl.Controls.pas" + 3) + $6
+[60D14AC4]{rtl290.bpl  } System.@FinalizeRecord (Line 33315, "System.pas" + 81) + $2
+[60D9A261]{rtl290.bpl  } System.SyncObjs.CoWaitForMultipleHandles (Line 716, "System.SyncObjs.pas" + 3) + $B
+[60D9A535]{rtl290.bpl  } System.SyncObjs.THandleObject.WaitForMultiple (Line 855, "System.SyncObjs.pas" + 14) + $18
+[5E001DAF]{coreide290.bpl} ParserThread.TParseThread.Lock (Line 398, "ParserThread.pas" + 12) + $15
+[60E30F71]{rtl290.bpl  } System.Classes.TThread.SetPriority (Line 16713, "System.Classes.pas" + 1) + $F
+[5E001ECE]{coreide290.bpl} ParserThread.TParseThread.CancelAndLock (Line 441, "ParserThread.pas" + 4) + $2
+[5AF89E53]{delphicoreide290.bpl} ComTypes.Lock (Line 801, "ComTypes.pas" + 7) + $7
+[5B0C9E4F]{delphicoreide290.bpl} BasePasComIntf.TCompiler.CompilerClearCompState (Line 683, "BasePasComIntf.pas" + 4) + $0
+[5B03410F]{delphicoreide290.bpl} PasNativeCompilerAdapter.TCompilerAdapter.ClearCompState (Line 284, "PasNativeCompilerAdapter.pas" + 0) + $3
+[5AFF1757]{delphicoreide290.bpl} BaseDelphiProject.TCompilerContextManager.ClearCompStates (Line 7182, "BaseDelphiProject.pas" + 8) + $8
+[5AFD0A70]{delphicoreide290.bpl} BaseDelphiProject.TBaseDelphiProject.Destroy (Line 989, "BaseDelphiProject.pas" + 1) + $8
+[60D100E4]{rtl290.bpl  } System.TObject.Free (Line 18427, "System.pas" + 1) + $4
+[5E019174]{coreide290.bpl} ProjectGroup.TProjectGroup.BeforeDestruction (Line 968, "ProjectGroup.pas" + 52) + $2
+[60D10815]{rtl290.bpl  } System.@BeforeDestruction (Line 19768, "System.pas" + 10) + $0
+[5E018ED2]{coreide290.bpl} ProjectGroup.TProjectGroup.Destroy (Line 901, "ProjectGroup.pas" + 0) + $2
+[60D100E4]{rtl290.bpl  } System.TObject.Free (Line 18427, "System.pas" + 1) + $4
+[5E01F8BA]{coreide290.bpl} ProjectGroup.TProjectGroupWrapper.Close (Line 2848, "ProjectGroup.pas" + 2) + $5
+[00B98291]{bds.exe     } AppMain.TAppBuilder.DestroyProjectGroup + $1A9
+[00B9C114]{bds.exe     } AppMain.TAppBuilder.WindowCloseQuery + $4CC
+[60A3F0E0]{vcl290.bpl  } Vcl.Forms.TCustomForm.CloseQuery (Line 9644, "Vcl.Forms.pas" + 8) + $14
+[60A3F009]{vcl290.bpl  } Vcl.Forms.TCustomForm.Close (Line 9616, "Vcl.Forms.pas" + 4) + $4
+[60A3D648]{vcl290.bpl  } Vcl.Forms.TCustomForm.WMClose (Line 8786, "Vcl.Forms.pas" + 0) + $0
+[608EF15E]{vcl290.bpl  } Vcl.Controls.TControl.WndProc (Line 7920, "Vcl.Controls.pas" + 91) + $6
+[609FD02B]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5823, "Vcl.Themes.pas" + 7) + $D
+[60D11860]{rtl290.bpl  } System.@TryFinallyExit (Line 23827, "System.pas" + 8) + $0
+[609FD119]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5834, "Vcl.Themes.pas" + 18) + $1E
+[60D105CB]{rtl290.bpl  } System.TObject.Dispatch (Line 19278, "System.pas" + 11) + $0
+[60A01069]{vcl290.bpl  } Vcl.Themes.TStyleHook.WndProc (Line 7734, "Vcl.Themes.pas" + 38) + $6
+[60A0124A]{vcl290.bpl  } Vcl.Themes.TMouseTrackControlStyleHook.WndProc (Line 7833, "Vcl.Themes.pas" + 1) + $4
+[60A53357]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.WndProc (Line 20592, "Vcl.Forms.pas" + 31) + $5
+[60A4DFFE]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.IsStyleBorder (Line 18462, "Vcl.Forms.pas" + 1) + $13
+[60A4E03C]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.HandleMessage (Line 18469, "Vcl.Forms.pas" + 2) + $6
+[60B2B1AC]{vcl290.bpl  } Vcl.Styles.TStyleEngine.HandleMessage (Line 3616, "Vcl.Styles.pas" + 20) + $8
+[60D12789]{rtl290.bpl  } System.@UStrAsg (Line 27007, "System.pas" + 18) + $0
+[609FD24C]{vcl290.bpl  } Vcl.Themes.TStyleManager.HandleMessage (Line 5892, "Vcl.Themes.pas" + 11) + $11
+[608F2767]{vcl290.bpl  } Vcl.Controls.TWinControl.DoHandleStyleMessage (Line 9956, "Vcl.Controls.pas" + 0) + $F
+[608F4813]{vcl290.bpl  } Vcl.Controls.TWinControl.WndProc (Line 11154, "Vcl.Controls.pas" + 178) + $6
+[60A38D98]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6303, "Vcl.Forms.pas" + 1) + $37
+[60A3966F]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6576, "Vcl.Forms.pas" + 274) + $5
+[608F3CD8]{vcl290.bpl  } Vcl.Controls.TWinControl.MainWndProc (Line 10823, "Vcl.Controls.pas" + 3) + $6
+[60E34E34]{rtl290.bpl  } System.Classes.StdWndProc (Line 19091, "System.Classes.pas" + 8) + $0
+[608F4969]{vcl290.bpl  } Vcl.Controls.TWinControl.DefaultHandler (Line 11199, "Vcl.Controls.pas" + 34) + $19
+[60A3BFF6]{vcl290.bpl  } Vcl.Forms.TCustomForm.DefaultHandler (Line 8080, "Vcl.Forms.pas" + 11) + $4
+[608F67A1]{vcl290.bpl  } Vcl.Controls.TWinControl.WMSysCommand (Line 12429, "Vcl.Controls.pas" + 20) + $7
+[60A3D719]{vcl290.bpl  } Vcl.Forms.TCustomForm.WMSysCommand (Line 8837, "Vcl.Forms.pas" + 14) + $4
+[5E27BC4E]{coreide290.bpl} MainWorkFrm.TMainWorkForm.WMSysCommand (Line 128, "MainWorkFrm.pas" + 2) + $4
+[608EF15E]{vcl290.bpl  } Vcl.Controls.TControl.WndProc (Line 7920, "Vcl.Controls.pas" + 91) + $6
+[609FD02B]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5823, "Vcl.Themes.pas" + 7) + $D
+[60D11860]{rtl290.bpl  } System.@TryFinallyExit (Line 23827, "System.pas" + 8) + $0
+[609FD119]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5834, "Vcl.Themes.pas" + 18) + $1E
+[60A4DFFE]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.IsStyleBorder (Line 18462, "Vcl.Forms.pas" + 1) + $13
+[60A4FBC4]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.WMSysCommand (Line 19215, "Vcl.Forms.pas" + 1) + $2
+[5F81A2C6]{themeloader290.bpl} IDETheme.VclStyleHooks.TCustomFormIDEStyleHook.WMSysCommand (Line 124, "IDETheme.VclStyleHooks.pas" + 1) + $4
+[60A01069]{vcl290.bpl  } Vcl.Themes.TStyleHook.WndProc (Line 7734, "Vcl.Themes.pas" + 38) + $6
+[60A0124A]{vcl290.bpl  } Vcl.Themes.TMouseTrackControlStyleHook.WndProc (Line 7833, "Vcl.Themes.pas" + 1) + $4
+[60A53357]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.WndProc (Line 20592, "Vcl.Forms.pas" + 31) + $5
+[60A4DFFE]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.IsStyleBorder (Line 18462, "Vcl.Forms.pas" + 1) + $13
+[60A4E03C]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.HandleMessage (Line 18469, "Vcl.Forms.pas" + 2) + $6
+[60B2B1AC]{vcl290.bpl  } Vcl.Styles.TStyleEngine.HandleMessage (Line 3616, "Vcl.Styles.pas" + 20) + $8
+[60D12789]{rtl290.bpl  } System.@UStrAsg (Line 27007, "System.pas" + 18) + $0
+[609FD24C]{vcl290.bpl  } Vcl.Themes.TStyleManager.HandleMessage (Line 5892, "Vcl.Themes.pas" + 11) + $11
+[608F2767]{vcl290.bpl  } Vcl.Controls.TWinControl.DoHandleStyleMessage (Line 9956, "Vcl.Controls.pas" + 0) + $F
+[608F4813]{vcl290.bpl  } Vcl.Controls.TWinControl.WndProc (Line 11154, "Vcl.Controls.pas" + 178) + $6
+[60A38D98]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6303, "Vcl.Forms.pas" + 1) + $37
+[60A3966F]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6576, "Vcl.Forms.pas" + 274) + $5
+[608F3CD8]{vcl290.bpl  } Vcl.Controls.TWinControl.MainWndProc (Line 10823, "Vcl.Controls.pas" + 3) + $6
+[60E34E34]{rtl290.bpl  } System.Classes.StdWndProc (Line 19091, "System.Classes.pas" + 8) + $0
+[60D14F12]{rtl290.bpl  } System.@FinalizeArray (Line 33618, "System.pas" + 80) + $3
+[60D9A261]{rtl290.bpl  } System.SyncObjs.CoWaitForMultipleHandles (Line 716, "System.SyncObjs.pas" + 3) + $B
+[60D9A535]{rtl290.bpl  } System.SyncObjs.THandleObject.WaitForMultiple (Line 855, "System.SyncObjs.pas" + 14) + $18
+[5E001DAF]{coreide290.bpl} ParserThread.TParseThread.Lock (Line 398, "ParserThread.pas" + 12) + $15
+[60E30F71]{rtl290.bpl  } System.Classes.TThread.SetPriority (Line 16713, "System.Classes.pas" + 1) + $F
+[5E001ECE]{coreide290.bpl} ParserThread.TParseThread.CancelAndLock (Line 441, "ParserThread.pas" + 4) + $2
+[5E28E5B6]{coreide290.bpl} EditorForm.BeginBatchOpenClose (Line 857, "EditorForm.pas" + 4) + $7
+[5E018FE9]{coreide290.bpl} ProjectGroup.TProjectGroup.BeforeDestruction (Line 935, "ProjectGroup.pas" + 19) + $0
+[60D10815]{rtl290.bpl  } System.@BeforeDestruction (Line 19768, "System.pas" + 10) + $0
+[5E018ED2]{coreide290.bpl} ProjectGroup.TProjectGroup.Destroy (Line 901, "ProjectGroup.pas" + 0) + $2
+[60D100E4]{rtl290.bpl  } System.TObject.Free (Line 18427, "System.pas" + 1) + $4
+[5E01F8BA]{coreide290.bpl} ProjectGroup.TProjectGroupWrapper.Close (Line 2848, "ProjectGroup.pas" + 2) + $5
+[00B98291]{bds.exe     } AppMain.TAppBuilder.DestroyProjectGroup + $1A9
+[00B9C114]{bds.exe     } AppMain.TAppBuilder.WindowCloseQuery + $4CC
+[60A3F0E0]{vcl290.bpl  } Vcl.Forms.TCustomForm.CloseQuery (Line 9644, "Vcl.Forms.pas" + 8) + $14
+[60A3F009]{vcl290.bpl  } Vcl.Forms.TCustomForm.Close (Line 9616, "Vcl.Forms.pas" + 4) + $4
+[60A3D648]{vcl290.bpl  } Vcl.Forms.TCustomForm.WMClose (Line 8786, "Vcl.Forms.pas" + 0) + $0
+[608EF15E]{vcl290.bpl  } Vcl.Controls.TControl.WndProc (Line 7920, "Vcl.Controls.pas" + 91) + $6
+[609FD02B]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5823, "Vcl.Themes.pas" + 7) + $D
+[60D11860]{rtl290.bpl  } System.@TryFinallyExit (Line 23827, "System.pas" + 8) + $0
+[609FD119]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5834, "Vcl.Themes.pas" + 18) + $1E
+[60D105CB]{rtl290.bpl  } System.TObject.Dispatch (Line 19278, "System.pas" + 11) + $0
+[60A01069]{vcl290.bpl  } Vcl.Themes.TStyleHook.WndProc (Line 7734, "Vcl.Themes.pas" + 38) + $6
+[60A0124A]{vcl290.bpl  } Vcl.Themes.TMouseTrackControlStyleHook.WndProc (Line 7833, "Vcl.Themes.pas" + 1) + $4
+[60A53357]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.WndProc (Line 20592, "Vcl.Forms.pas" + 31) + $5
+[60A4DFFE]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.IsStyleBorder (Line 18462, "Vcl.Forms.pas" + 1) + $13
+[60A4E03C]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.HandleMessage (Line 18469, "Vcl.Forms.pas" + 2) + $6
+[60B2B1AC]{vcl290.bpl  } Vcl.Styles.TStyleEngine.HandleMessage (Line 3616, "Vcl.Styles.pas" + 20) + $8
+[60D12789]{rtl290.bpl  } System.@UStrAsg (Line 27007, "System.pas" + 18) + $0
+[609FD24C]{vcl290.bpl  } Vcl.Themes.TStyleManager.HandleMessage (Line 5892, "Vcl.Themes.pas" + 11) + $11
+[608F2767]{vcl290.bpl  } Vcl.Controls.TWinControl.DoHandleStyleMessage (Line 9956, "Vcl.Controls.pas" + 0) + $F
+[608F4813]{vcl290.bpl  } Vcl.Controls.TWinControl.WndProc (Line 11154, "Vcl.Controls.pas" + 178) + $6
+[60A38D98]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6303, "Vcl.Forms.pas" + 1) + $37
+[60A3966F]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6576, "Vcl.Forms.pas" + 274) + $5
+[60A0124A]{vcl290.bpl  } Vcl.Themes.TMouseTrackControlStyleHook.WndProc (Line 7833, "Vcl.Themes.pas" + 1) + $4
+[608F3CD8]{vcl290.bpl  } Vcl.Controls.TWinControl.MainWndProc (Line 10823, "Vcl.Controls.pas" + 3) + $6
+[60E34E34]{rtl290.bpl  } System.Classes.StdWndProc (Line 19091, "System.Classes.pas" + 8) + $0
+[608F4969]{vcl290.bpl  } Vcl.Controls.TWinControl.DefaultHandler (Line 11199, "Vcl.Controls.pas" + 34) + $19
+[60A3BFF6]{vcl290.bpl  } Vcl.Forms.TCustomForm.DefaultHandler (Line 8080, "Vcl.Forms.pas" + 11) + $4
+[608F67A1]{vcl290.bpl  } Vcl.Controls.TWinControl.WMSysCommand (Line 12429, "Vcl.Controls.pas" + 20) + $7
+[60A3D719]{vcl290.bpl  } Vcl.Forms.TCustomForm.WMSysCommand (Line 8837, "Vcl.Forms.pas" + 14) + $4
+[5E27BC4E]{coreide290.bpl} MainWorkFrm.TMainWorkForm.WMSysCommand (Line 128, "MainWorkFrm.pas" + 2) + $4
+[608EF15E]{vcl290.bpl  } Vcl.Controls.TControl.WndProc (Line 7920, "Vcl.Controls.pas" + 91) + $6
+[609FD02B]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5823, "Vcl.Themes.pas" + 7) + $D
+[60D11860]{rtl290.bpl  } System.@TryFinallyExit (Line 23827, "System.pas" + 8) + $0
+[609FD119]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5834, "Vcl.Themes.pas" + 18) + $1E
+[60A4DFFE]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.IsStyleBorder (Line 18462, "Vcl.Forms.pas" + 1) + $13
+[60A4FBC4]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.WMSysCommand (Line 19215, "Vcl.Forms.pas" + 1) + $2
+[5F81A2C6]{themeloader290.bpl} IDETheme.VclStyleHooks.TCustomFormIDEStyleHook.WMSysCommand (Line 124, "IDETheme.VclStyleHooks.pas" + 1) + $4
+[60A01069]{vcl290.bpl  } Vcl.Themes.TStyleHook.WndProc (Line 7734, "Vcl.Themes.pas" + 38) + $6
+[60A0124A]{vcl290.bpl  } Vcl.Themes.TMouseTrackControlStyleHook.WndProc (Line 7833, "Vcl.Themes.pas" + 1) + $4
+[60A53357]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.WndProc (Line 20592, "Vcl.Forms.pas" + 31) + $5
+[60A4DFFE]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.IsStyleBorder (Line 18462, "Vcl.Forms.pas" + 1) + $13
+[60A4E03C]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.HandleMessage (Line 18469, "Vcl.Forms.pas" + 2) + $6
+[60B2B1AC]{vcl290.bpl  } Vcl.Styles.TStyleEngine.HandleMessage (Line 3616, "Vcl.Styles.pas" + 20) + $8
+[60D12789]{rtl290.bpl  } System.@UStrAsg (Line 27007, "System.pas" + 18) + $0
+[609FD24C]{vcl290.bpl  } Vcl.Themes.TStyleManager.HandleMessage (Line 5892, "Vcl.Themes.pas" + 11) + $11
+[608F2767]{vcl290.bpl  } Vcl.Controls.TWinControl.DoHandleStyleMessage (Line 9956, "Vcl.Controls.pas" + 0) + $F
+[608F4813]{vcl290.bpl  } Vcl.Controls.TWinControl.WndProc (Line 11154, "Vcl.Controls.pas" + 178) + $6
+[60A38D98]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6303, "Vcl.Forms.pas" + 1) + $37
+[60A3966F]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6576, "Vcl.Forms.pas" + 274) + $5
+[608F3CD8]{vcl290.bpl  } Vcl.Controls.TWinControl.MainWndProc (Line 10823, "Vcl.Controls.pas" + 3) + $6
+[60E34E34]{rtl290.bpl  } System.Classes.StdWndProc (Line 19091, "System.Classes.pas" + 8) + $0
+[5E4AE3D7]{coreide290.bpl} StructureView.TStructureViewForm.VirtualStringTree1GetText (Line 1574, "StructureView.pas" + 14) + $3
+[6075EC1B]{vclide290.bpl} IDEVirtualTrees.TWorkerThread.CancelValidation (Line 5527, "IDEVirtualTrees.pas" + 5) + $24
+[60D10A18]{rtl290.bpl  } System.TMonitor.CheckOwningThread (Line 19939, "System.pas" + 2) + $0
+[60D10D3E]{rtl290.bpl  } System.TMonitor.Exit (Line 20129, "System.pas" + 1) + $2
+[60D10D9A]{rtl290.bpl  } System.TMonitor.Exit (Line 20151, "System.pas" + 2) + $7
+[6075EBE1]{vclide290.bpl} IDEVirtualTrees.TWorkerThread.RemoveTree (Line 5513, "IDEVirtualTrees.pas" + 11) + $6
+[6076A5F6]{vclide290.bpl} IDEVirtualTrees.TBaseVirtualTree.InterruptValidation (Line 13619, "IDEVirtualTrees.pas" + 7) + $7
+[6077BA19]{vclide290.bpl} IDEVirtualTrees.TBaseVirtualTree.Clear (Line 24576, "IDEVirtualTrees.pas" + 5) + $3
+[5E4AA6B3]{coreide290.bpl} StructureView.UpdateView (Line 662, "StructureView.pas" + 14) + $5
+[5E4AA85C]{coreide290.bpl} StructureView.TBaseStructureViewServices.StructureChanged (Line 699, "StructureView.pas" + 22) + $1
+[5E4A9FDE]{coreide290.bpl} StructureView.TBaseStructureViewServices.SetStructureContext (Line 517, "StructureView.pas" + 107) + $6
+[60D4556C]{rtl290.bpl  } System.SysUtils.WideCompareText (Line 8034, "System.SysUtils.pas" + 4) + $0
+[5707BA16]{coreproide290.bpl} ModExplorerForm.TCodeExplorerEditorHooks.DoDockFormUpdate (Line 545, "ModExplorerForm.pas" + 41) + $A
+[5707BEE8]{coreproide290.bpl} ModExplorerForm.TCodeExplorerEditorHooks.StructureChanged (Line 673, "ModExplorerForm.pas" + 14) + $4
+[5E4ABEBC]{coreide290.bpl} StructureView.TStructureViewServices.NotifyStructureChanged (Line 1129, "StructureView.pas" + 3) + $8
+[5E4AA8D9]{coreide290.bpl} StructureView.TBaseStructureViewServices.StructureChanged (Line 712, "StructureView.pas" + 35) + $5
+[5E4A9FDE]{coreide290.bpl} StructureView.TBaseStructureViewServices.SetStructureContext (Line 517, "StructureView.pas" + 107) + $6
+[60D4556C]{rtl290.bpl  } System.SysUtils.WideCompareText (Line 8034, "System.SysUtils.pas" + 4) + $0
+[5E4ABB6F]{coreide290.bpl} StructureView.TStructureViewServices.EditorViewChanged (Line 1058, "StructureView.pas" + 19) + $5
+[5E2A2093]{coreide290.bpl} EditorForm.TEditorViewsChangedEvent.Send (Line 8588, "EditorForm.pas" + 3) + $19
+[5E297F05]{coreide290.bpl} EditorForm.TEditWindow.WindowActivate (Line 4598, "EditorForm.pas" + 37) + $20
+[60D103DA]{rtl290.bpl  } System.@IsClass (Line 18928, "System.pas" + 1) + $8
+[00BA8B53]{bds.exe     } AppMain.TAppBuilder.WMActivate + $9B
+[608EF15E]{vcl290.bpl  } Vcl.Controls.TControl.WndProc (Line 7920, "Vcl.Controls.pas" + 91) + $6
+[609FD02B]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5823, "Vcl.Themes.pas" + 7) + $D
+[60D11860]{rtl290.bpl  } System.@TryFinallyExit (Line 23827, "System.pas" + 8) + $0
+[609FD119]{vcl290.bpl  } Vcl.Themes.TStyleManager.GetStyle (Line 5834, "Vcl.Themes.pas" + 18) + $1E
+[60D105CB]{rtl290.bpl  } System.TObject.Dispatch (Line 19278, "System.pas" + 11) + $0
+[60A01069]{vcl290.bpl  } Vcl.Themes.TStyleHook.WndProc (Line 7734, "Vcl.Themes.pas" + 38) + $6
+[60A0124A]{vcl290.bpl  } Vcl.Themes.TMouseTrackControlStyleHook.WndProc (Line 7833, "Vcl.Themes.pas" + 1) + $4
+[60A53357]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.WndProc (Line 20592, "Vcl.Forms.pas" + 31) + $5
+[60A4DFFE]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.IsStyleBorder (Line 18462, "Vcl.Forms.pas" + 1) + $13
+[60A4E03C]{vcl290.bpl  } Vcl.Forms.TFormStyleHook.HandleMessage (Line 18469, "Vcl.Forms.pas" + 2) + $6
+[60B2B1AC]{vcl290.bpl  } Vcl.Styles.TStyleEngine.HandleMessage (Line 3616, "Vcl.Styles.pas" + 20) + $8
+[60D12789]{rtl290.bpl  } System.@UStrAsg (Line 27007, "System.pas" + 18) + $0
+[609FD24C]{vcl290.bpl  } Vcl.Themes.TStyleManager.HandleMessage (Line 5892, "Vcl.Themes.pas" + 11) + $11
+[608F2767]{vcl290.bpl  } Vcl.Controls.TWinControl.DoHandleStyleMessage (Line 9956, "Vcl.Controls.pas" + 0) + $F
+[608F4813]{vcl290.bpl  } Vcl.Controls.TWinControl.WndProc (Line 11154, "Vcl.Controls.pas" + 178) + $6
+[60A38D98]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6303, "Vcl.Forms.pas" + 1) + $37
+[60A3966F]{vcl290.bpl  } Vcl.Forms.TCustomForm.WndProc (Line 6576, "Vcl.Forms.pas" + 274) + $5
+[60D10A18]{rtl290.bpl  } System.TMonitor.CheckOwningThread (Line 19939, "System.pas" + 2) + $0
+[60D10D3E]{rtl290.bpl  } System.TMonitor.Exit (Line 20129, "System.pas" + 1) + $2
+[608F3CD8]{vcl290.bpl  } Vcl.Controls.TWinControl.MainWndProc (Line 10823, "Vcl.Controls.pas" + 3) + $6
+[60E34E34]{rtl290.bpl  } System.Classes.StdWndProc (Line 19091, "System.Classes.pas" + 8) + $0
+[60D11090]{rtl290.bpl  } System.TMonitor.TryEnter (Line 20364, "System.pas" + 10) + $0
+[60D10BB0]{rtl290.bpl  } System.TMonitor.Enter (Line 20025, "System.pas" + 4) + $2
+[60D10A18]{rtl290.bpl  } System.TMonitor.CheckOwningThread (Line 19939, "System.pas" + 2) + $0
+[60A447B8]{vcl290.bpl  } Vcl.Forms.TApplication.ProcessMessage (Line 13355, "Vcl.Forms.pas" + 2) + $9
+[60A448DA]{vcl290.bpl  } Vcl.Forms.TApplication.HandleMessage (Line 13406, "Vcl.Forms.pas" + 1) + $4
+[60A44C19]{vcl290.bpl  } Vcl.Forms.TApplication.Run (Line 13545, "Vcl.Forms.pas" + 27) + $3
+[00BE8B12]{bds.exe     } bds.bds + $DE
