@@ -39,16 +39,16 @@ def generateGV(args):
   calls = reversed(calls)
 
   g = Graph("G", "digraph")
-  g.node["shape"]="box"
+  g.node["shape"] = "box"
   prev, curr = None, None
   for idx, call in enumerate(calls):
     prev = curr
-    curr = g.add_node(call)
-    curr["label"]=nodes[call]
+    curr = g.add_node("{}".format(call))
+    curr["label"] = nodes[call]
     
     if (prev):
       e = g.add_edge(prev, curr)
-      e["label"]="{}".format(idx)
+      e["label"] = "{}".format(idx)
 
   output_file = change_file_ext(args.callstack, ".dot")
   GenUtils.save_string_to_file(u""+g.output(), output_file)
@@ -58,7 +58,7 @@ def generateGV(args):
 
 def processArgs():
   parser = argparse.ArgumentParser()
-  parser.add_argument('callstack', type=str, help='Name of file containing CallStack')
+  parser.add_argument('callstack', type=str, help='Name of file containing call stack')
   return parser.parse_args()
 
 
