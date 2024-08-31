@@ -21,75 +21,42 @@ StackEntryRegex = re.compile(StackEntryRegexStr)
 def get_safe_name(name):
   return name.replace('.', '_').replace('@', '_').replace('$', '_').replace('%', '_')
 
-def generateQuotedGV(args):
-  nodes = {}
-  calls = []
-  with open(args.callstack) as f:
-    lines = f.read().splitlines()
-  for idx, line in enumerate(lines):
-    regex = StackEntryRegex.match(line)
-    if not regex:
-      print("ERROR: {}:'{}' does not match regex".format(idx+1, line))
-      return
-    safe_name = f'"{regex.group(3)}"'
-    calls.append(safe_name)
-    if not safe_name in nodes:
-      nodes[safe_name] = regex.group(3)
+# Common procedure for generating a graph
+def generate_graph(args, graph_class, node_label_func):
+    nodes = {}
+    calls = []
+    with open(args.callstack) as f:
+        lines = f.read().splitlines()
 
-  calls = reversed(calls)
+    for idx, line in enumerate(lines):
+        regex = StackEntryRegex.match(line)
+        if not regex:
+            print("ERROR: {}:'{}' does not match regex".format(idx+1, line))
+            return
+        safe_name = node_label_func(regex.group(3))
+        calls.append(safe_name)
+        if not safe_name in nodes:
+            nodes[safe_name] = regex.group(3)
 
-  g = quotedGraph("G", "digraph")
-  g.node["shape"] = "box"
-  prev, curr = None, None
-  for idx, call in enumerate(calls):
-    prev = curr
-    curr = g.add_node('{}'.format(call))
-    
-    if (prev):
-      e = g.add_edge(prev, curr)
-      e["label"] = "{}".format(idx)
+    calls = reversed(calls)
 
-  suffix = ('.verbose' if args.verbose else '.terse') + '.dot'
-  output_file = change_file_ext(args.callstack, suffix)
-  GenUtils.save_string_to_file(u""+g.output(), output_file)
-    
-  print("File '{}' has been saved".format(output_file))
+    g = graph_class("G", "digraph")
+    g.node["shape"] = "box"
+    prev, curr = None, None
+    for idx, call in enumerate(calls):
+        prev = curr
+        curr = g.add_node("{}".format(call))
+        if graph_class == Graph:
+            curr["label"] = nodes[call]
+        if prev:
+            e = g.add_edge(prev, curr)
+            e["label"] = "{}".format(idx)
 
-def generateGV(args):
-  nodes = {}
-  calls = []
-  with open(args.callstack) as f:
-    lines = f.read().splitlines()
-  for idx, line in enumerate(lines):
-    regex = StackEntryRegex.match(line)
-    if not regex:
-      print("ERROR: {}:'{}' does not match regex".format(idx+1, line))
-      return
-    safe_name = get_safe_name(regex.group(3))
-    calls.append(safe_name)
-    if not safe_name in nodes:
-      nodes[safe_name] = regex.group(3)
+    suffix = ('.verbose' if args.verbose else '.terse') + '.dot'
+    output_file = change_file_ext(args.callstack, suffix)
+    GenUtils.save_string_to_file(u"" + g.output(), output_file)
 
-  calls = reversed(calls)
-
-  g = Graph("G", "digraph")
-  g.node["shape"] = "box"
-  prev, curr = None, None
-  for idx, call in enumerate(calls):
-    prev = curr
-    curr = g.add_node("{}".format(call))
-    curr["label"] = nodes[call]
-    
-    if (prev):
-      e = g.add_edge(prev, curr)
-      e["label"] = "{}".format(idx)
-
-  suffix = ('.verbose' if args.verbose else '.terse') + '.dot'
-  output_file = change_file_ext(args.callstack, suffix)
-  GenUtils.save_string_to_file(u""+g.output(), output_file)
-    
-  print("File '{}' has been saved".format(output_file))
-
+    print("File '{}' has been saved".format(output_file))
 
 def processArgs():
   parser = argparse.ArgumentParser()
@@ -112,10 +79,14 @@ def processArgs():
 
 def main():
   args = processArgs()
-  if args.verbose: 
-    generateGV(args)
+  # if args.verbose: 
+  #   generateGV(args)
+  # else:
+  #   generateQuotedGV(args)
+  if args.verbose:
+     generate_graph(args, Graph, get_safe_name)
   else:
-    generateQuotedGV(args)
+     generate_graph(args, quotedGraph, lambda name: f'"{name}"')
 
 
 if __name__ == "__main__":
