@@ -33,7 +33,8 @@ class Edge(AttributeContainer):
 
     def output(self):
         attributes_str = f'[{self.format_attributes()}]' if self.attributes else ''
-        return f'{self.prev.node_id} -> {self.curr.node_id} {attributes_str};\n'
+        result = f'{self.prev.node_id} -> {self.curr.node_id} {attributes_str};\n'
+        return result
 
 class Graph(AttributeContainer):
     def __init__(self, param1, param2):
@@ -51,12 +52,14 @@ class Graph(AttributeContainer):
         new_node = Node(node)
         if new_node not in self.nodes:
             self.nodes.append(new_node)
+
         return new_node
 
     def add_edge(self, prev: Node, curr: Node) -> Edge:
         new_edge = Edge(prev, curr)
         if new_edge not in self.nodes:
             self.nodes.append(new_edge)
+            
         return new_edge
 
     def output(self):
@@ -69,8 +72,25 @@ class Graph(AttributeContainer):
         for node in self.nodes:
             items += "\t" + node.output()
 
-        return f'{self.param2} "{self.param1}" {{\n{items}}}\n'
+        result = f'{self.param2} "{self.param1}" {{\n{items}}}\n'
+        return result
 
     @property
     def node(self) -> dict:
         return self.attributes
+
+class quotedGraph(Graph):
+    def output(self):
+        # Generate and return the output string with all nodes
+        items = ""
+        if self.attributes:
+            for key, value in self.attributes.items():
+                items += f'node [{key} = "{value}"];\n'
+        
+        for node in self.nodes:
+            if not isinstance(node, Node): 
+                items += "\t" + node.output()
+
+        result = f'{self.param2} "{self.param1}" {{\n{items}}}\n'
+        return result
+    

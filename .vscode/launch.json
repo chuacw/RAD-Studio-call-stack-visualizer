@@ -11,7 +11,8 @@
             "program": "generateGV.py",
             "console": "integratedTerminal",
             "args": [
-                "callstack.txt"
+                "callstack-1.txt",
+                "-v",
             ]
         }
     ]
